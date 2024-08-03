@@ -1,0 +1,27 @@
+git init => initaize the git repository
+git add > with git add filepath specific filepath or git add . will add all files in git repository
+git diff filename=> it will show differences
+git log > show the logs of that file and --oneline then in short then using that if git show {id} then it will give details about
+git blame > show the list of changes done by all users in that file.
+git commit > it will push the code in the git with -m "message here...!"
+git rm filepath > remove file with -f for force.
+git status > after commit whihc files are changes
+git reset > it will move the head to that node above this will ---  git reset --hard c8c3c73   
+git revert > will will revert that code node and head will there only in latest node.
+> git branch : list branches
+> git branch 'branch_name' 
+> git checkout new-branch-name : change from one to another branch.
+> git push : git push --set-upstream origin branchname
+>git merge changes : git merge origin/branch_name
+
+
+
+
+
+
+IMPORTANT:
+1. use git add before commit to other wise it will not come in staging.
+2. Head will always point on latest node.
+
+
+
