@@ -19,7 +19,8 @@ this will create the branch and switch to that new branch directly.
 >
 
 rebase query for themselves
-
+for the reabase or merge we have to need to have main branch
+>git rebase branch_name
 
 **create branch - switch to new branch - do changes and commit then locally - push the branch to origin - checkout main - then merge it to main branch**
 
