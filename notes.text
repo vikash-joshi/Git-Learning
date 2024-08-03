@@ -10,7 +10,7 @@ git reset > it will move the head to that node above this will ---  git reset --
 git revert > will will revert that code node and head will there only in latest node.
 > git branch : list branches
 > git branch 'branch_name' 
-> git checkout new-branch-name : change from one to another branch.
+> git checkout -b new-branch-name : change from one to another branch.
 > git push : git push --set-upstream origin branchname
 >git merge changes : git merge origin/branch_name
 ** New Way to create branch **
