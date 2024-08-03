@@ -13,6 +13,10 @@ git revert > will will revert that code node and head will there only in latest 
 > git checkout new-branch-name : change from one to another branch.
 > git push : git push --set-upstream origin branchname
 >git merge changes : git merge origin/branch_name
+** New Way to create branch **
+this will create the branch and switch to that new branch directly.
+>git checkout -b "branch name"
+>
 
 
 
