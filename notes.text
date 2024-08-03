@@ -20,6 +20,18 @@ this will create the branch and switch to that new branch directly.
 
 
 
+**create branch - switch to new branch - do changes and commit then locally - push the branch to origin - checkout main - then merge it to main branch**
+
+
+git checkout -b 'feature/blogs'
+git add .
+git commit -m 'blog list'
+git add .
+git commit -m 'blog form'
+if the branch is new then use this > git push --set-upstream origin feature/blog or existing then git push
+git checkout main
+git merge origin/feature/blog
+
 
 
 
